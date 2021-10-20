@@ -22,8 +22,8 @@
     "build:craco": "craco build",
     "test:craco": "craco test",
     "eject": "react-scripts eject",
-    "lint": "eslint './src/**/*.{js,jsx}'",
-    "lint:fix": "eslint --fix './src/**/*.{js,jsx}'",
+    "lint": "eslint ./src/**/*.{js,jsx}",
+    "lint:fix": "eslint --fix ./src/**/*.{js,jsx}",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
